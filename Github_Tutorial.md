@@ -67,7 +67,14 @@ git clone git clone https://github.com/edamame-course/2016-tutorials.git
 cd C:\Documents\EDAMAME\2016-tutorials
 ```
 
-* Using your favorite text editor, let's open the README.md file. nano for Mac and Linux and notepad for Windows are default options, but you can find info for more advanced? text editors such as atom (MAC and Linux?) and sublime (Windows) below. 
+* Using your favorite text editor, let's open the README.md file. nano for Mac and Linux and notepad for Windows are default options, but you can find info for more advanced? text editors such as atom (MAC and Linux) and sublime (Windows) below. 
+
+Mac and Linux users
+```
+nano README.md
+```
+
+Windows users
 
 ```
 notepad.exe README.md
@@ -77,7 +84,7 @@ Make any edit you want to the document, save it, and then close.
 
 We have made edits on our local computers, but these edits have not been uploaded to our github repository. We will use git add, git commit, and git push to do so. 
 
-* Then, use `git add` to add the new file to an existing repository. 
+* Use `git add` to add the new file to an existing repository. 
 ```
 git add FILENAME
 ```
