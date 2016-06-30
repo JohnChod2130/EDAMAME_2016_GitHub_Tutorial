@@ -39,6 +39,8 @@ The main benefit of forking a respository is that it allows you to clone (copy) 
 git clone "copied URL"
 ```
 
+For 
+
 *  Directions for 'git clone' can also be found at [GitHub](https://help.github.com/articles/cloning-a-repository/). 
 *  This protocol can be used to clone any public repository.  For EDAMAME repos, you can `pull` to get the most up-to-date materials from GitHub, but you cannot `push` to edit those resources and have your edits tracked to the main repository, because you are not part of the EDAMAME team. (More details on these commands below). 
 
