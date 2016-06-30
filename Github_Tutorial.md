@@ -36,7 +36,11 @@ The main benefit of forking a respository is that it allows you to clone (copy) 
 ![img1](/img/Fork.png)
 
 *  You'll be re-directed to your github account. The repository is now on your github account but we still need to clone the repository so we have local access to the files. 
-*  In the new window, on the right hand side there is a box labeled "Clone or download". Click on that and then copy the link by clicking on the clipboard icon.
+*  In the new window, on the right hand side there is a box labeled "Clone or download". 
+
+![img2](/img/Clone.png)
+ 
+* Click on that and then copy the link by clicking on the clipboard icon.
 *  Find a local directory that you want this repository to be added to. For example, I will place this repository in the following directory: /Users/JohnChod2130/Documents/GITHUBREPOS/EDAMAME/. cd into that directory clone the URL just copied: 
 
 ```
