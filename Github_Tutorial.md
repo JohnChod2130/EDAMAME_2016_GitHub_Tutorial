@@ -33,13 +33,11 @@ The main benefit of forking a respository is that it allows you to clone (copy) 
 *  Navigate to the EDAMAME [2015-tutorials](https://github.com/edamame-course/2015-tutorials) repository.  
 *  On the upper right-hand side there is a box labeled "Fork". Click on that. You'll be re-directed to your github account. The repository is now on your github account but we still need to clone the repository so we have local access to the files. 
 *  In the new window, on the right hand side there is a box labeled "Clone or download". Click on that and then copy the link by clicking on the clipboard icon.
-*  Find a local directory that you want this repository to be added to. For example, I will place this repository in the following directory: /Users/JohnChod2130/Documents/GITHUBREPOS/EDAMAME/. cd into that directory and type: 
+*  Find a local directory that you want this repository to be added to. For example, I will place this repository in the following directory: /Users/JohnChod2130/Documents/GITHUBREPOS/EDAMAME/. cd into that directory clone the URL just copied: 
 
 ```
-git clone "copied URL"
+git clone git clone https://github.com/edamame-course/2016-tutorials.git
 ```
-
-For 
 
 *  Directions for 'git clone' can also be found at [GitHub](https://help.github.com/articles/cloning-a-repository/). 
 *  This protocol can be used to clone any public repository.  For EDAMAME repos, you can `pull` to get the most up-to-date materials from GitHub, but you cannot `push` to edit those resources and have your edits tracked to the main repository, because you are not part of the EDAMAME team. (More details on these commands below). 
