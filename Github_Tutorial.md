@@ -30,7 +30,7 @@ _Preamble_:  GitHub provices excellent resources, and most of this tutorial poin
 
 ##3.  Fork and Clone a repository
 The main benefit of forking a respository is that it allows you to clone (copy) an exisiting repository and then have the ability to make your own edits to the repository without changing the original repository. 
-*  Navigate to the EDAMAME [2015-tutorials](https://github.com/edamame-course/2015-tutorials) repository.  
+*  Navigate to the EDAMAME [2016-tutorials](https://github.com/edamame-course/2016-tutorials) repository.  
 *  On the upper right-hand side there is a box labeled "Fork". Click on that.
 
 ![img1](/img/Fork.png)
