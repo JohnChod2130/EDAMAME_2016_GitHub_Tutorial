@@ -59,15 +59,15 @@ git clone git clone https://github.com/edamame-course/2016-tutorials.git
   
  - For more information on git status and git pull, see here and here. However, since we forked an EDAMAME repository, you currently have no collaborators. Since you are the sole editor of these files, the git status and git pull are not needed.
 
-Now, let's make a local edit and submit it to your github repository. 
+* Now, let's make a local edit and submit it to your github repository. 
  
-Change into the tutorial directory that we forked and cloned before. *Remember, Windows users should be using gitbash for all of these steps!*
+* Change into the tutorial directory that we forked and cloned before. *Remember, Windows users should be using gitbash for all of these steps!*
 
 ```
 cd C:\Documents\EDAMAME\2016-tutorials
 ```
 
-Using your favorite text editor, let's open the README.md file. nano for Mac and Linux and notepad for Windows are default options, but you can find info for more advanced? text editors such as atom (MAC and Linux?) and sublime (Windows) below. 
+* Using your favorite text editor, let's open the README.md file. nano for Mac and Linux and notepad for Windows are default options, but you can find info for more advanced? text editors such as atom (MAC and Linux?) and sublime (Windows) below. 
 
 ```
 notepad.exe README.md
@@ -77,7 +77,7 @@ Make any edit you want to the document, save it, and then close.
 
 We have made edits on our local computers, but these edits have not been uploaded to our github repository. We will use git add, git commit, and git push to do so. 
 
-Then, use `git add` to add the new file to an existing repository. 
+* Then, use `git add` to add the new file to an existing repository. 
 ```
 git add FILENAME
 ```
@@ -87,12 +87,12 @@ In our case,
 git add README.md
 ```
   
-Use `git commit` to stage the file for tracking. A brief message after the `-m` flag must be provided to share with users what the new update is about.  It should probably be more specific than the example below.
+* Use `git commit` to stage the file for tracking. A brief message after the `-m` flag must be provided to share with users what the new update is about.  It should probably be more specific than the example below.
 
 ```
 git commit -m "update file"
 ```
-- Use `git push` to push your local _tracked_ changes to the remote repository
+* Use `git push` to push your local _tracked_ changes to the remote repository
 ```
 git push
 ```
