@@ -57,11 +57,11 @@ git clone git clone https://github.com/edamame-course/2016-tutorials.git
 * The sequence of adding new files / updating a repo.
   - There is a sequence that is used to add something new to a github repo: git status, git pull, git add, git commit, and git push. The first two commands are extremely important if you're working in a shared repository with other collaborators. Since all collaborators may be making edits to the same document, you want to make sure you have the most up-to-date file before you make edits and submit your edits on a file to the repository. First, you use `git status` to determine if your files on your computer are different from the files on the remote git repository.  If it is different, use `git pull` to make sure you are working with the most recent files, which will prevent conflicting edits with your team mates.
   
- For more information on git status and git pull, see here and here. However, since we forked an EDAMAME repository, you currently have no collaborators. Since you are the sole editor of these files, the git status and git pull are not needed.
+ - For more information on git status and git pull, see here and here. However, since we forked an EDAMAME repository, you currently have no collaborators. Since you are the sole editor of these files, the git status and git pull are not needed.
 
- Now, let's make a local edit and submit it to your github repository. 
+Now, let's make a local edit and submit it to your github repository. 
  
-Change into the tutorial directory that we forked and cloned before. ##Remember, Windows users should be using gitbash for all of these steps!##
+Change into the tutorial directory that we forked and cloned before. ###Remember, Windows users should be using gitbash for all of these steps!
 
 ```
 cd C:\Documents\EDAMAME\2016-tutorials
