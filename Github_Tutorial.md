@@ -61,7 +61,7 @@ git clone git clone https://github.com/edamame-course/2016-tutorials.git
 
 * Now, let's make a local edit and submit it to your github repository. 
  
-* Change into the tutorial directory that we forked and cloned before. _Remember, Windows users should be using gitbash for all of these steps!_
+* Change into the tutorial directory that we forked and cloned before. **Remember, Windows users should be using gitbash for all of these steps!**
 
 ```
 cd C:\Documents\EDAMAME\2016-tutorials
