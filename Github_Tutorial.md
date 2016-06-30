@@ -61,7 +61,7 @@ git clone git clone https://github.com/edamame-course/2016-tutorials.git
 
 Now, let's make a local edit and submit it to your github repository. 
  
-Change into the tutorial directory that we forked and cloned before. ###Remember, Windows users should be using gitbash for all of these steps!
+Change into the tutorial directory that we forked and cloned before. *Remember, Windows users should be using gitbash for all of these steps!*
 
 ```
 cd C:\Documents\EDAMAME\2016-tutorials
@@ -100,6 +100,9 @@ git push
 Did it work? Re-load your github webpage and navigate to the README.md file. Do you see your edits?
 
 ##5.  Writing workflows in Markdown for use on GitHub
+
+How do we create these helpful tutorials on github, with headers, links, images, etc? Markdown!
+
 * Markdown is a syntax for fast text-to-html conversion so that it is readable and web-ready.
 * The extension of a markdown document is ".md".  GitHub will automatically render documents with .md extension to be pretty on the web interface.
 * You can use any text editor to write a mark down document.  Two nice open ones are [sublime](http://www.sublimetext.com/) and [atom](https://atom.io/).
