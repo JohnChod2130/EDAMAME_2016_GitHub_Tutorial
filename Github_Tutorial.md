@@ -33,7 +33,7 @@ The main benefit of forking a respository is that it allows you to clone (copy) 
 *  Navigate to the EDAMAME [2015-tutorials](https://github.com/edamame-course/2015-tutorials) repository.  
 *  On the upper right-hand side there is a box labeled "Fork". Click on that.
   
-![img1](../img/"Screen Shot 2016-06-30 at 12.04.11 PM.png")
+![img1](../img/Fork.png)
 
 *  You'll be re-directed to your github account. The repository is now on your github account but we still need to clone the repository so we have local access to the files. 
 *  In the new window, on the right hand side there is a box labeled "Clone or download". Click on that and then copy the link by clicking on the clipboard icon.
