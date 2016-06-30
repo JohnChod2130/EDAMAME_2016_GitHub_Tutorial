@@ -41,7 +41,7 @@ The main benefit of forking a respository is that it allows you to clone (copy) 
 ![img2](/img/Clone.png)
  
 * Click on that and then copy the link by clicking on the clipboard icon.
-*  Find a local directory that you want this repository to be added to. For example, I will place this repository in the following directory: /Users/JohnChod2130/Documents/GITHUBREPOS/EDAMAME/. cd into that directory clone the URL just copied: 
+*  Choose a local directory that you want this repository to be added to. Change into that directory and clone the URL just copied: 
 
 ```
 git clone git clone https://github.com/edamame-course/2016-tutorials.git
