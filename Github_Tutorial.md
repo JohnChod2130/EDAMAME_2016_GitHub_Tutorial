@@ -77,26 +77,27 @@ Make any edit you want to the document, save it, and then close.
 
 We have made edits on our local computers, but these edits have not been uploaded to our github repository. We will use git add, git commit, and git push to do so. 
 
-  - Then, use `git add` to add the new file to an existing repository. 
-  ```
-  git add FILENAME
-  ```
+Then, use `git add` to add the new file to an existing repository. 
+```
+git add FILENAME
+```
   
-  In our case,
-  ```
-  git add README.md
-  ```
+In our case,
+```
+git add README.md
+```
   
-  - Use `git commit` to stage the file for tracking. A brief message after the `-m` flag must be provided to share with users what the new update is about.  It should probably be more specific than the example below.
-  ```
-  git commit -m "update file"
-  ```
-  - Use `git push` to push your local _tracked_ changes to the remote repository
-  ```
-  git push
-  ```
+Use `git commit` to stage the file for tracking. A brief message after the `-m` flag must be provided to share with users what the new update is about.  It should probably be more specific than the example below.
 
-Did it work? Re-load your github webpage and navigate to the README.md file. 
+```
+git commit -m "update file"
+```
+- Use `git push` to push your local _tracked_ changes to the remote repository
+```
+git push
+```
+
+Did it work? Re-load your github webpage and navigate to the README.md file. Do you see your edits?
 
 ##5.  Writing workflows in Markdown for use on GitHub
 * Markdown is a syntax for fast text-to-html conversion so that it is readable and web-ready.
