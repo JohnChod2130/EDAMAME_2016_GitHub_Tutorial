@@ -30,14 +30,18 @@ _Preamble_:  GitHub provices excellent resources, and most of this tutorial poin
 
 ##3.  Fork and Clone a repository
 The main benefit of forking a respository is that it allows you to clone (copy) an exisiting repository and then have the ability to make your own edits to the repository without changing the original repository. 
-*  Navigate to the EDAMAME [2015-tutorials](https://github.com/edamame-course/2015-tutorials) repository.  
+*  Navigate to the EDAMAME [2016-tutorials](https://github.com/edamame-course/2016-tutorials) repository.  
 *  On the upper right-hand side there is a box labeled "Fork". Click on that.
-  
-![img1](../img/"Screen Shot 2016-06-30 at 12.04.11 PM.png")
+
+![img1](/img/Fork.png)
 
 *  You'll be re-directed to your github account. The repository is now on your github account but we still need to clone the repository so we have local access to the files. 
-*  In the new window, on the right hand side there is a box labeled "Clone or download". Click on that and then copy the link by clicking on the clipboard icon.
-*  Find a local directory that you want this repository to be added to. For example, I will place this repository in the following directory: /Users/JohnChod2130/Documents/GITHUBREPOS/EDAMAME/. cd into that directory clone the URL just copied: 
+*  In the new window, on the right hand side there is a box labeled "Clone or download". 
+
+![img2](/img/Clone.png)
+ 
+* Click on that and then copy the link by clicking on the clipboard icon.
+*  Choose a local directory that you want this repository to be added to. Change into that directory and clone the URL just copied: 
 
 ```
 git clone git clone https://github.com/edamame-course/2016-tutorials.git
@@ -51,19 +55,26 @@ git clone git clone https://github.com/edamame-course/2016-tutorials.git
 * All git commands start with `git`.  Git commands will only work within git repositories (you can't use them on any old directory on your computer).
  
 * The sequence of adding new files / updating a repo.
-  - There is a sequence that is used to add something new to a github repo: git status, git pull, git add, git commit, and git push. The first two commands are extremely important if you're working in a shared repository with other collaborators. Since all collaborators may be making edits to the same document, you want to make sure you have the most up-to-date file before you make edits and sumbit the file to the repository. First, you use `git status` to determine if your files on your computer are different from the files on the remote git repository.  If it is different, use `git pull` to make sure you are working with the most recent files, which will prevent conflicting edits with your team mates.
+  - There is a sequence that is used to add something new to a github repo: git status, git pull, git add, git commit, and git push. The first two commands are extremely important if you're working in a shared repository with other collaborators. Since all collaborators may be making edits to the same document, you want to make sure you have the most up-to-date file before you make edits and submit your edits on a file to the repository. First, you use `git status` to determine if your files on your computer are different from the files on the remote git repository.  If it is different, use `git pull` to make sure you are working with the most recent files, which will prevent conflicting edits with your team mates.
   
- For more information on git status and git pull, see here and here. However, since we forked an EDAMAME repository, you currently have no collaborators. Since you are the sole editor of these files, the git status and git pull are unessessary.
+ - For more information on [git status](https://git-scm.com/docs/git-status) and [git pull](https://git-scm.com/docs/git-pull), see here and here. However, since we forked an EDAMAME repository, you currently have no collaborators. Since you are the sole editor of these files, git status and git pull are not needed.
 
- Now, let's make a local edit and submit it to your github repository. 
+* Now, let's make a local edit and submit it to your github repository. 
  
-Change into the tutorial directory from the EDAMAME repository that we forked and cloned before. Remember, Windows users should be using gitbash for all of these steps! 
+* Change into the tutorial directory that we forked and cloned before. **Remember, Windows users should be using gitbash for all of these steps!**
 
 ```
-cd /Users/JohnChod2130/Documents/GITHUBREPOS/EDAMAME/2015-tutorials
+cd C:\Documents\EDAMAME\2016-tutorials
 ```
 
-Using your favorite text editor, let's open the README.md file. nano for Mac and Linux? and notepad for Windows are default options, but you can find info for more advanced text editors such as atom (MAC and Linux?) and sublime (Windows) below. 
+* Using your favorite text editor, let's open the README.md file. nano for Mac and Linux and notepad for Windows are default options, but you can find info for more advanced? text editors such as atom (MAC and Linux) and sublime (Windows) below. 
+
+Mac and Linux users
+```
+nano README.md
+```
+
+Windows users
 
 ```
 notepad.exe README.md
@@ -73,30 +84,32 @@ Make any edit you want to the document, save it, and then close.
 
 We have made edits on our local computers, but these edits have not been uploaded to our github repository. We will use git add, git commit, and git push to do so. 
 
-  - Then, use `git add` to add the new file to an existing repository. 
-  ```
-  git add FILENAME
-  ```
+* Use `git add` to add the new file to an existing repository. 
+```
+git add FILENAME
+```
   
-  In our case,
-  ```
-  git add README.md
-  ```
+In our case,
+```
+git add README.md
+```
   
-  - Use `git commit` to stage the file for tracking. A brief message after the `-m` flag must be provided to share with users what the new update is about.  It should probably be more specific than the example below.
-  ```
-  git commit -m "update file"
-  ```
-  - Use `git push` to push your local _tracked_ changes to the remote repository
-  ```
-  git push
-  ```
+* Use `git commit` to stage the file for tracking. A brief message after the `-m` flag must be provided to share with users what the new update is about.  It should probably be more specific than the example below.
 
-If you set up cache-ing, you’ll be prompted to enter github info before the final push to the github repository. 
+```
+git commit -m "update file"
+```
+* Use `git push` to push your local _tracked_ changes to the remote repository
+```
+git push
+```
 
-Did it work? Re-load your github webpage and navigate to the README.md file. 
+Did it work? Re-load your github webpage and navigate to the README.md file. Do you see your edits?
 
 ##5.  Writing workflows in Markdown for use on GitHub
+
+How do we create these helpful tutorials on github, with headers, links, images, etc? Markdown!
+
 * Markdown is a syntax for fast text-to-html conversion so that it is readable and web-ready.
 * The extension of a markdown document is ".md".  GitHub will automatically render documents with .md extension to be pretty on the web interface.
 * You can use any text editor to write a mark down document.  Two nice open ones are [sublime](http://www.sublimetext.com/) and [atom](https://atom.io/).
